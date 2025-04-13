@@ -14,7 +14,7 @@ function readJson() {
 function addJson() {
     const feed = document.getElementById("posts");
 
-    for (let i = currentPost; i < currentPost + maxPosts && i < allPosts.length; i++) {
+    for (let i = currentPost; i < currentPost + maxPosts; i++) {
         const post = document.createElement("div");
         post.className = "post";
 
